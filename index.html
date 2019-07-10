@@ -11,6 +11,7 @@
   <title></title>
 </head>
 <body>
+   <i class="fa fa-thumbs-up"></i>
     <div class="header">
         <img src="img/logo.png">
         <div class="header-links">
@@ -21,24 +22,27 @@
         <div class="form-header">
             <h1>Create an Intuit account</h1>
             <p>One account for everything Intuit, including Mint.<br><a href="#">Learn more</a></p>
+            <p>Already have an account? <a href="#">Sign In</a></p>
         </div>
         <form id="login-form" action="#" method="post">
-           <fieldset>
-                <label>
-                    Email address
-                    <input type="email" required>
-                </label>
-                <label>
-                    Phone (recommended)
-                    <input type="tel">
-                </label>
-                <div class="phone-comments">Standard call, messaging or data rates may apply.</div>
-                <label>
-                    Password
-                    <input type="password" required>
-                </label>
-                <button type="submit"><i class="fa fa-lock"></i>Create Account</button>
-            </fieldset>
+
+            <label for="email-ctl">
+                Email address
+            </label>
+            <input id="email-ctl" name="email" type="email"  required>
+
+            <label for="phone-ctl">
+                Phone (recommended)
+            </label>
+            <input id="phone-ctl" name="phone" type="tel">
+            <div class="phone-comments">Standard call, messaging or data rates may apply.</div>
+
+            <label for="password-ctl">
+                Password
+            </label>
+            <input id="password-ctl" name="password" type="password" required>
+
+            <button type="submit"><i class="fa fa-lock"></i>Create Account</button>
         </form>
         <div class="privacy-notice">
             <p>By clicking Create Account, you agree to our Terms of Service and have read and acknowledge our Privacy Statement.</p>
