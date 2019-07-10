@@ -5,4 +5,41 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+body {
+    background-color: #f0f0f0;
+}
+/*img position*/
+.header {
+    width: 50%;
+    margin: auto;
+}
+/*login container position*/
+#login-container {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin: auto;
+    width: 40%;
+    padding: 2em;
+    background-color:white;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 2px;
+}
+
+/*Format header form*/
+
+.form-header {
+    text-align: center;
+}
+.form-header > h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.form-header > p {
+    font-size: 14px;
+    color: #4c4c4c;
 }
