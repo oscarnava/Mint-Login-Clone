@@ -23,10 +23,10 @@ a {
     justify-content: flex-end;
     width: 100%;
     margin: 10px;
-    
+
 }
 #text-info {
-    margin-right: 1em;  
+    margin-right: 1em;
     font-size: 12px;
 }
 
@@ -37,13 +37,13 @@ a {
 .header {
     width: 380px;
     margin: auto;
-    
+
 }
 
 .header-links {
    width: 380px;
    text-align: center;
-   margin-bottom: 1em;   
+   margin-bottom: 1em;
 }
 #link-imgs {
     display: flex;
@@ -125,8 +125,8 @@ label {
     border: thin solid black;
     margin-right: 2em;
 
-    
-    
+
+
 }
 
 .privacy-notice {
@@ -153,4 +153,21 @@ footer {
     color: #4c4c4cc7;
     margin-top: 2em;
     font-size: 10px;
+}
+
+/* 750px */
+
+#alt-login-question {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    #sign-in-btn-info {
+        display: none;
+    }
+
+    #alt-login-question {
+        display: inherit;
+    }
+
 }
