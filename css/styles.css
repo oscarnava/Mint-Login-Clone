@@ -16,11 +16,38 @@ a {
     text-decoration: none;
 }
 
+/*log-in btn*/
+
+#sign-in-btn-info {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 10px;
+    
+}
+#text-info {
+    margin-right: 1em;  
+    font-size: 12px;
+}
+
+
+
 /* Page header and logo formatting */
 
 .header {
-    width: 312px;
+    width: 380px;
     margin: auto;
+    
+}
+
+.header-links {
+   width: 380px;
+   text-align: center;
+   margin-bottom: 1em;   
+}
+#link-imgs {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #login-container {
@@ -82,7 +109,7 @@ label {
 
 /*format for button*/
 
-#submit-btn{
+#submit-btn, #sign-in-btn{
     width: 100%;
     background: linear-gradient(to bottom,#167CCC 0,#0077C5 100%);
     color: white;
@@ -92,6 +119,14 @@ label {
     border-width: 0;
     font-size: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.582);
+}
+#sign-in-btn {
+    width: 102px;
+    border: thin solid black;
+    margin-right: 2em;
+
+    
+    
 }
 
 .privacy-notice {
