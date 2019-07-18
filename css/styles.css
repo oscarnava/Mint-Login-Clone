@@ -132,9 +132,9 @@ label {
     width: 102px;
     border: thin solid black;
     margin-right: 2em;
-
-
-
+    height: 30px;
+    font-size: .8em;
+    padding-top: 7px;
 }
 
 .privacy-notice {
@@ -186,3 +186,5 @@ footer {
   margin: auto 8px;
   color: gray;
 }
+
+  heighth       height
